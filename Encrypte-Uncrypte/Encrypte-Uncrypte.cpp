@@ -34,7 +34,7 @@ int main()
 			cout << "Write your pasward " << endl;
 			cin >> p;
 			enc = encrypte(m, p);
-			cout << enc << endl;
+			cout << "The encrypted message is: " << enc << endl;
 			cout << "Remember you have to keep your pasward in order to uncrypte your messege " << endl;
 			cout << "=============================================================================== " << endl;
 		}
@@ -46,7 +46,7 @@ int main()
 			cout << "Write the pasward " << endl;
 			cin >> p;
 			unc = uncrypte(m, p);
-			cout << unc << endl;
+			cout << "The uncrypted message is: " << unc << endl;
 			cout << "=============================================================================== " << endl;
 		}
 		else {
