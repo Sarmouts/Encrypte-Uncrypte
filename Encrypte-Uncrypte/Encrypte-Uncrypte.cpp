@@ -22,10 +22,10 @@ string uncrypte(string mess, string pass)
 }
 int main()
 {
+	cout << "This is a c++ encrypte-uncrypte program created by Sarmouts " << endl;
+	cout << "---------------------------------------------------------------------" << endl;
 	while (true) {
 		int a;
-		cout << "This is a c++ encrypte-uncrypte program created by Sarmouts " << endl;
-		cout << "---------------------------------------------------------------------" << endl;
 		cout << "What do you want to do 1.encrypte, 2.uncrypte " << endl;
 		cin >> a;
 		if (a == 1)
