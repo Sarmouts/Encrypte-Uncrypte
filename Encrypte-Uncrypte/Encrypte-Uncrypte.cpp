@@ -24,7 +24,8 @@ int main()
 {
 	while (true) {
 		int a;
-		cout << "This is a c++ encrypte-uncrypte program " << endl;
+		cout << "This is a c++ encrypte-uncrypte program created by Sarmouts " << endl;
+		cout << "---------------------------------------------------------------------" << endl;
 		cout << "What do you want to do 1.encrypte, 2.uncrypte " << endl;
 		cin >> a;
 		if (a == 1)
